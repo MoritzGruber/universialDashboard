@@ -28,6 +28,7 @@ socket.on('update', function (data) {
     vm.servers.push(data);
 });
 
+
 setInterval(function () {
     // check if servers are running
     for (var i = 0; i < vm.servers.length; i++) {
